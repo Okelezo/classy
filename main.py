@@ -35,8 +35,6 @@ class Budget:
         if self.amount >= transfer_amount:
             self.amount = self.amount - transfer_amount
             another_budget.deposit(transfer_amount)
-        #remove transfer_amount from amount
-        #deposit transfer_amount to another_budget "another_budget.deposit(transfer_amount))"
 
 
 
